@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "GUID Finder",
+  "version": "1.0",
+  "description": "GUID Finder helps you extract and copy GUIDs from URLs with a single click. Perfect for developers and testers!",
+  "permissions": ["clipboardWrite", "activeTab"],
+  "action": {
+    "default_popup": "popup.html",
+	"default_icon": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+  }
+}
